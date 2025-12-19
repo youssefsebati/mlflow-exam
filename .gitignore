@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Dossiers de données Docker (Volume persistance)
+mlflow-minio/
+mlflow-postgres/
+
+# Fichiers de données et modèles volumineux
+*.pkl
+*.model
+mlruns/
+.mlflow/
